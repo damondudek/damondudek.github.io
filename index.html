@@ -3,93 +3,172 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Full-stack Developer | C#, .NET Core, React, MongoDB, RabbitMQ, Redis">
-    <title>Your Name - Full-Stack Developer</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <title>Damon Dudek | Full Stack Developer</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
-
-    <!-- Navbar -->
-    <nav>
+    <header>
         <div class="container">
-            <a href="#home" class="logo">YourName</a>
-            <ul>
-                <li><a href="#about">About Me</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#technologies">Technologies</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
+            <div class="profile">
+                <img src="assets/images/profile.jpg" alt="Your Name" class="profile-img">
+                <h1>Damon Dudek</h1>
+                <h2>Full Stack Developer</h2>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="assets/resume.pdf" target="_blank">Resume</a></li>
+                </ul>
+            </nav>
         </div>
-    </nav>
+    </header>
 
-    <!-- Home Section -->
-    <section id="home">
-        <div class="container">
-            <h1>Hi, I'm Your Name</h1>
-            <p>Full-stack developer specializing in C#, .NET Core, React, MongoDB, and more.</p>
-        </div>
-    </section>
-
-    <!-- About Me Section -->
-    <section id="about">
-        <div class="container">
+    <main class="container">
+        <section id="about">
             <h2>About Me</h2>
-            <p>I am a passionate full-stack software developer with experience in building scalable web applications. I work with a wide range of technologies including C#, .NET Core, React, MongoDB, RabbitMQ, and Redis. I enjoy solving complex problems and creating efficient, maintainable solutions.</p>
-        </div>
-    </section>
+            <p>
+                I'm a passionate full stack developer with expertise in C#, .NET Core, Oracle, React, MongoDB, RabbitMQ, and Redis. 
+                With X years of experience in building scalable web applications and microservices, I specialize in creating 
+                efficient, maintainable, and high-performance solutions.
+            </p>
+            <p>
+                My approach combines clean code principles with modern architecture patterns to deliver robust applications 
+                that meet both business and technical requirements.
+            </p>
+        </section>
 
-    <!-- Projects Section -->
-    <section id="projects">
-        <div class="container">
-            <h2>My Projects</h2>
-            <div class="project">
-                <h3>Project 1: Example Project</h3>
-                <p>Details about the project. Technologies used: C#, .NET Core, React, MongoDB, etc.</p>
-                <a href="https://github.com/yourusername/project1" target="_blank">View on GitHub</a>
+        <section id="skills">
+            <h2>Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Backend</h3>
+                    <ul>
+                        <li>C#</li>
+                        <li>.NET Core</li>
+                        <li>ASP.NET MVC/WebAPI</li>
+                        <li>Entity Framework</li>
+                        <li>RabbitMQ</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Frontend</h3>
+                    <ul>
+                        <li>React.js</li>
+                        <li>JavaScript/TypeScript</li>
+                        <li>HTML5/CSS3</li>
+                        <li>Redux</li>
+                        <li>Bootstrap</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Databases</h3>
+                    <ul>
+                        <li>Oracle</li>
+                        <li>MongoDB</li>
+                        <li>Redis</li>
+                        <li>SQL Server</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>DevOps & Tools</h3>
+                    <ul>
+                        <li>Docker</li>
+                        <li>Git</li>
+                        <li>Azure/AWS</li>
+                        <li>CI/CD Pipelines</li>
+                        <li>Visual Studio</li>
+                    </ul>
+                </div>
             </div>
-            <div class="project">
-                <h3>Project 2: Another Project</h3>
-                <p>Details about another project. Technologies used: RabbitMQ, Redis, React, etc.</p>
-                <a href="https://github.com/yourusername/project2" target="_blank">View on GitHub</a>
+        </section>
+
+        <section id="projects">
+            <h2>Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>Enterprise Microservices Platform</h3>
+                    <p>.NET Core microservices with RabbitMQ for inter-service communication, Redis for caching, and React frontend.</p>
+                    <div class="tech-used">
+                        <span>.NET Core</span>
+                        <span>React</span>
+                        <span>RabbitMQ</span>
+                    </div>
+                    <a href="#" class="btn">View Details</a>
+                </div>
+                <div class="project-card">
+                    <h3>High-Performance Data Processing</h3>
+                    <p>Oracle database optimization with C# data processing layer and Redis caching for improved performance.</p>
+                    <div class="tech-used">
+                        <span>C#</span>
+                        <span>Oracle</span>
+                        <span>Redis</span>
+                    </div>
+                    <a href="#" class="btn">View Details</a>
+                </div>
+                <div class="project-card">
+                    <h3>Full Stack Web Application</h3>
+                    <p>React frontend with .NET Core WebAPI backend and MongoDB for flexible data storage.</p>
+                    <div class="tech-used">
+                        <span>React</span>
+                        <span>.NET Core</span>
+                        <span>MongoDB</span>
+                    </div>
+                    <a href="#" class="btn">View Details</a>
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Technologies Section -->
-    <section id="technologies">
-        <div class="container">
-            <h2>Technologies</h2>
-            <ul>
-                <li>C#</li>
-                <li>.NET Core</li>
-                <li>React</li>
-                <li>MongoDB</li>
-                <li>Oracle</li>
-                <li>RabbitMQ</li>
-                <li>Redis</li>
-            </ul>
-        </div>
-    </section>
+        <section id="experience">
+            <h2>Professional Experience</h2>
+            <div class="experience-item">
+                <h3>Senior Full Stack Developer</h3>
+                <p class="company">Company Name | 20XX - Present</p>
+                <ul>
+                    <li>Designed and implemented microservices architecture using .NET Core and RabbitMQ</li>
+                    <li>Optimized Oracle database queries improving performance by 40%</li>
+                    <li>Developed React frontend with Redux state management</li>
+                    <li>Implemented Redis caching layer reducing API response times</li>
+                </ul>
+            </div>
+            <div class="experience-item">
+                <h3>Software Developer</h3>
+                <p class="company">Previous Company | 20XX - 20XX</p>
+                <ul>
+                    <li>Built RESTful APIs with ASP.NET Core WebAPI</li>
+                    <li>Integrated MongoDB for document storage requirements</li>
+                    <li>Developed responsive UIs with React and Bootstrap</li>
+                </ul>
+            </div>
+        </section>
 
-    <!-- Contact Section -->
-    <section id="contact">
-        <div class="container">
-            <h2>Contact</h2>
-            <p>If you'd like to get in touch, feel free to drop a message or reach me via LinkedIn or email.</p>
-            <ul>
-                <li>Email: yourname@example.com</li>
-                <li>LinkedIn: <a href="https://www.linkedin.com/in/yourlinkedin" target="_blank">Your LinkedIn</a></li>
-            </ul>
-        </div>
-    </section>
+        <section id="contact">
+            <h2>Get In Touch</h2>
+            <p>I'm always interested in hearing about new projects and opportunities.</p>
+            <div class="contact-links">
+                <a href="mailto:your.email@example.com" class="btn">
+                    <i class="fas fa-envelope"></i> Email Me
+                </a>
+                <a href="https://linkedin.com/in/yourprofile" target="_blank" class="btn">
+                    <i class="fab fa-linkedin"></i> LinkedIn
+                </a>
+                <a href="https://github.com/yourusername" target="_blank" class="btn">
+                    <i class="fab fa-github"></i> GitHub
+                </a>
+            </div>
+        </section>
+    </main>
 
-    <!-- Footer -->
     <footer>
         <div class="container">
-            <p>&copy; 2025 Your Name. All rights reserved.</p>
+            <p>&copy; <span id="year"></span> Your Name. All rights reserved.</p>
         </div>
     </footer>
 
+    <script src="scripts.js"></script>
 </body>
 </html>
